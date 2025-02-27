@@ -18,6 +18,6 @@ mod tests {
     fn you_can_assert() {
         // TODO: Test the function `is_even` with some values.
         assert!(is_even(2), "2 should be even");
-        assert!(is_even(3), "3 should not be even");
+        assert!(!is_even(3), "3 should not be even");
     }
 }
